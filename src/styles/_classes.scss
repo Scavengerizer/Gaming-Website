@@ -1,0 +1,70 @@
+.row {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.h-center {
+  justify-content: center;
+}
+
+.v-center {
+  align-items: center;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bg-prop {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

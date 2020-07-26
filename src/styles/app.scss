@@ -1,0 +1,19 @@
+// importing partials
+
+@import "./variables";
+@import "./utilities";
+@import "./classes";
+
+// importing sass components
+
+@import "./components/01\ header.scss";
+@import "./components/02\ landing.scss";
+@import "./components/03\ offers.scss";
+@import "./components/04\ upcoming.scss";
+@import "./components/05\ footer.scss";
+@import "./components/06\ media\ queries.scss";
+
+body {
+  visibility: hidden;
+  background-color: $white;
+}

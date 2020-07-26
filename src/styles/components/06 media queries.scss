@@ -1,0 +1,167 @@
+@media (min-width: 600px) {
+  header {
+    .header {
+      .hamburger {
+        display: none;
+      }
+      nav {
+        ul {
+          li {
+            padding: 0 2em;
+            margin-left: 0;
+          }
+        }
+        .nav-links,
+        .nav-links.open {
+          display: flex;
+          position: relative;
+          height: auto;
+          top: 0;
+          flex-direction: row;
+          pointer-events: all;
+        }
+        .cart {
+          margin-top: 0;
+          margin-left: 3em;
+        }
+      }
+    }
+  }
+  .landing {
+    .landing-text {
+      span {
+        font-size: 4rem;
+      }
+    }
+    .dots {
+      position: absolute;
+      bottom: 3%;
+      left: 40%;
+    }
+  }
+  .upcoming {
+    .upcoming-bg1 {
+      .upcoming-text {
+        .upcoming-title {
+          span {
+            font-size: 4rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .landing {
+    .landing-text {
+      span {
+        font-size: 5rem;
+      }
+    }
+    .landing-btn {
+      flex-direction: row;
+      margin: 5em 0;
+      button {
+        margin-right: 2em;
+        width: 12rem;
+      }
+      .landing-price,
+      .landing-cart {
+        padding: 1.25em 3em;
+      }
+    }
+    .dots {
+      position: absolute;
+      bottom: 3%;
+      left: 45%;
+    }
+  }
+  .offers {
+    ul {
+      .col2 {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      li {
+        .offer {
+          margin: 10em 0;
+        }
+      }
+    }
+  }
+  .upcoming {
+    .upcoming-bg1 {
+      .upcoming-text {
+        margin-top: 7.5em;
+        .upcoming-title {
+          span {
+            font-size: 5rem;
+          }
+        }
+      }
+      .upcoming-btn {
+        .col {
+          flex-direction: row;
+          button {
+            margin-right: 2em;
+            width: 17rem;
+          }
+        }
+      }
+    }
+    .desc-text {
+      h3 {
+        text-align: center;
+      }
+      p {
+        align-self: center;
+        text-align: center;
+        font-size: 1.25rem;
+        width: 80%;
+      }
+    }
+    .screenshots {
+      .col {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+  }
+  footer {
+    .container {
+      .col {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .landing {
+    .landing-text {
+      span {
+        font-size: 7rem;
+      }
+    }
+  }
+  .upcoming {
+    .upcoming-bg1 {
+      .upcoming-text {
+        margin-top: 10em;
+        .upcoming-title {
+          span {
+            font-size: 7rem;
+          }
+        }
+      }
+    }
+    .desc-text {
+      p {
+        font-size: 2rem;
+        width: 80%;
+      }
+    }
+  }
+}

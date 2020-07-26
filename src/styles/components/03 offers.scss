@@ -1,0 +1,62 @@
+.offers {
+  width: 100%;
+  padding: 10em 0;
+  background-color: $grey;
+  ul {
+    .col2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    li {
+      .offer {
+        margin: 5em 0 11em 0;
+        h6 {
+          align-self: flex-start;
+          font-family: $Mont;
+          font-weight: 700;
+          color: $yellow;
+          width: 90%;
+          margin: 0 auto;
+          margin-bottom: 3em;
+        }
+        img {
+          width: 90%;
+          height: auto;
+          margin: 0 auto;
+          margin-bottom: 3em;
+        }
+        .offer-price {
+          margin-top: 2em;
+
+          button {
+            margin: 0 auto;
+            color: $grey;
+            background-color: $yellow;
+            border-radius: 9px;
+            font-weight: 700;
+            border: 4px solid $yellow;
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-family: $Mont;
+            border: none;
+            width: 10rem;
+            padding: 1.5em 2.5em;
+            &:hover {
+              cursor: pointer;
+            }
+          }
+          img {
+            margin: 0 auto;
+            margin: 0 2em;
+            width: 38px;
+            height: auto;
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

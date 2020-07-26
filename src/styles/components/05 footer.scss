@@ -1,0 +1,25 @@
+footer {
+  min-height: 115px;
+  background-color: black;
+  color: white;
+  font-family: $Mont;
+  font-weight: 300;
+  font-size: 0.75rem;
+  .container {
+    .col {
+      img {
+        margin: 4em 0;
+        max-height: 50px;
+        max-width: 50px;
+      }
+      .footer-text {
+        h4 {
+          margin: 0 2em;
+        }
+      }
+      h4 {
+        margin: 5em 0;
+      }
+    }
+  }
+}

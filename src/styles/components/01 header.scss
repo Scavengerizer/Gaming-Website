@@ -1,0 +1,59 @@
+header {
+  min-height: 100px;
+  background-color: $grey;
+  .header {
+    min-height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    .logo {
+      max-height: 50px;
+      max-width: 50px;
+    }
+    nav {
+      ul {
+        li {
+          a {
+            color: white;
+            font-family: $Mont;
+            font-weight: 700;
+          }
+          padding: 2em 0;
+          margin-left: 2em;
+        }
+      }
+      .nav-links {
+        position: absolute;
+        height: 50vh;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        background-color: $grey;
+        flex-direction: column;
+        pointer-events: all;
+        z-index: 6;
+      }
+      .nav-links.open {
+        pointer-events: none;
+        display: none;
+        z-index: 6;
+      }
+      .cart {
+        margin-top: 1em;
+        margin-left: 2em;
+      }
+      .hamburger {
+        z-index: 7;
+        &:hover {
+          cursor: pointer;
+        }
+        div {
+          width: 25px;
+          height: 2px;
+          margin: 7px 0;
+          background-color: $yellow;
+        }
+      }
+    }
+  }
+}
