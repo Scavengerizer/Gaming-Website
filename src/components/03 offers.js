@@ -6,7 +6,7 @@ import hitman from "../assets/images/hitman.png";
 
 function About() {
   return (
-    <div className='offers'>
+    <div className='offers' id='#2'>
       <div className='container'>
         <ul>
           <div className='col2'>

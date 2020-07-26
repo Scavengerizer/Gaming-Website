@@ -20,7 +20,6 @@ function App() {
     let hamburger = document.querySelector(".hamburger");
     let navlinks = document.querySelector(".nav-links");
     // for animation
-    let links = document.querySelector(".nav-links li");
 
     hamburger.addEventListener("click", () => {
       navlinks.classList.toggle("open");

@@ -5,24 +5,24 @@ import cart from "../assets/svg/cart.svg";
 function Header() {
   return (
     <header>
-      <div className='header row v-center'>
+      <div className='header row v-center' id='#1'>
         <div className='logo'>
           <img src={logo} alt='' />
         </div>
         <nav className='row v-center'>
           <ul className='nav-links open row'>
             <li>
-              <a href='#' className='link'>
+              <a href='#1' className='link'>
                 Featured
               </a>
             </li>
             <li>
-              <a href='#' className='link'>
+              <a href='#2' className='link'>
                 Offers
               </a>
             </li>
             <li>
-              <a href='#' className='link'>
+              <a href='#3' className='link'>
                 Upcoming
               </a>
             </li>

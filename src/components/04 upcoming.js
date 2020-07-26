@@ -7,7 +7,7 @@ import cyberpunk3 from "../assets/images/cyberpunk3.png";
 
 function Upcoming() {
   return (
-    <div className='upcoming'>
+    <div className='upcoming' id='#3'>
       <div className='upcoming-bg1 bg-prop'>
         <div className='container'>
           <div className='col'>
