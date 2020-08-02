@@ -30,7 +30,7 @@ function Landing() {
             <div className='title col h-center'>
               <span>ASSASSIN'S </span>
               <span>CREED IV </span>
-              <span>BLACK FAT</span>
+              <span>BLACK FLAG</span>
             </div>
           </div>
           <div className='landing-btn col'>
